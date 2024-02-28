@@ -9,7 +9,6 @@ foreach (string myString in myStrings)
 
     while (periodLocation != -1)
     {
-        //Console.WriteLine($"periodLocation : {periodLocation}");
         Console.WriteLine(mySentence.Substring(0, periodLocation).TrimStart());
 
         mySentence = mySentence.Remove(0, periodLocation + 1);
